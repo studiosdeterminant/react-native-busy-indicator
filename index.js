@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   },
 
   nocontainer: {
-    position: 'absolute',    
-    top: 0,    
-    left: 0,        
+    position: 'absolute',
+    top: 0,
+    left: 0,
     width: 0.001,
     height: 0.001
   },
@@ -84,7 +84,7 @@ class BusyIndicator extends React.Component {
         width: this.props.overlayWidth,
         height: this.props.overlayHeight
       },
-      
+
       text: {
         color: this.props.textColor,
         fontSize: this.props.textFontSize
